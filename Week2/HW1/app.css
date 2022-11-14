@@ -1,0 +1,132 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 18px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: rgb(16, 11, 11);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(252, 252, 252);
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgba(34,163,160,255);
+  }
+  
+  .show {
+    display: block;
+  }
+*   {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title-big  {
+    text-align: center;
+}
+h1, h2, h3, i{
+    color: rgba(34,163,160,255);
+}
+i   {
+    border: 2px;
+}
+h1  {
+    font-size: 50px;
+}
+h2  {
+    font-size: 35px;
+    text-align: center;
+}
+h3  {
+    font-size: 30px;
+}
+.row    {
+    content: "";
+}
+.column {
+    float: left;
+}
+.col-1  {
+    width: 33.33%;
+}
+.col-2  {
+    width: 33.33%;
+}
+.left   {
+    width: 30%;
+}
+.right  {
+    width: 70%;
+}
+.fade   {
+    color: rgb(185, 184, 184);
+}
+.btn    {
+    background-color: rgba(34,163,160,255);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.btn:hover  {
+    background-color: #0a3130;
+    cursor: pointer;
+}
+.rate   {
+    float: right;
+    margin-right: 30px;
+}
+.center  {
+    text-align: center;
+}
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-white {
+    background-color: white;
+}
