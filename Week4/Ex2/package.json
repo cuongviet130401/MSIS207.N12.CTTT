@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.15"
+    "react-spring": "^9.5.5",
+    "react-tinder-card": "^1.6.2"
   }
 }
+ 
