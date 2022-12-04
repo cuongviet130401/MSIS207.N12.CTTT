@@ -1,6 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-import DatingCards from './components/DatingCards';
+import DatingCards from './components/DatingCards/DatingCards';
 import SwipeButtons from './components/SwipeButtons';
 import Header from './components/Header';
 
